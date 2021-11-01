@@ -13,9 +13,9 @@ const client = new Discord.Client({
       activity: {
         name: `Dm me for help | m!help`, 
         type: "PLAYING", 
-        url: "https://twitch.tv/#"
+        url: "https://github.com/XranaDev"
       },
-      status: "online"
+      status: "dnd"
     },
     restTimeOffset: 0,
     partials: ["CHANNEL", "MESSAGE", "REACTION"],
